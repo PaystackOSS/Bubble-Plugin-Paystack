@@ -28,7 +28,7 @@ ____
 
 ## Getting Started
 
-[Bubble.io](http://Bubble.io) is a no-code app development framework that lets you design, develop, host, and scale applications without a single line of code. Bubble can be used to build any kind of application whether it’s just a hobby app for personal use, or a complex piece of software built to run an entire large-scale business.
+[Bubble.io](https://bubble.io) is a no-code app development framework that lets you design, develop, host, and scale applications without a single line of code. Bubble can be used to build any kind of application whether it’s just a hobby app for personal use, or a complex piece of software built to run an entire large-scale business.
 
 With the Paystack plugin, you can now accept seamless and secure payments in your Bubble applications. Here’s how to get started!
 
@@ -54,7 +54,7 @@ You should now have Paystack listed under your installed plugins. Click on *Pays
 Up next, copy your live secret key from the dashboard and add it to the API key field in this format *Bearer sk_live_84fjsk**********90,* and do the same for the test API key.
 
 <aside>
-💡 Ensure your include the preceding “ Bearer “ in the *API Key* and *API Key - dev.* fields for the plugin to work properly.
+💡 Ensure you include the preceding “ Bearer “ in the *API Key* and *API Key - dev.* fields for the plugin to work properly.
 
 </aside>
 
@@ -110,10 +110,10 @@ The component also exposes states with parameters related to the transaction cre
 | Disabled | Whether the button is disabled or not. It is disabled when the required parameters are not provided. |
 | Email | Customer’s email address |
 | Amount | Transaction amount in the smallest monetary unit |
-| Reference | Unique transaction reference |r
+| Reference | Unique transaction reference |
 | Status | Transaction status |
 | Message | Human readable response message on transaction status |
-| Transaction ID | Unique numberic transaction identifier |
+| Transaction ID | Unique numeric transaction identifier |
 | Error | Error message if checkout fails to load |
 
 These states are updated at different points in the lifecycle of a transaction in sync with the events triggered by the plugin. Here’s how the states and events relate to each other;
